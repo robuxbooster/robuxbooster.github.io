@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robux Booster</title>
+    <link rel="icon" type="image/x-icon" href="img/robux.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/play.css">
+</head>
+<body>
+    <header>
+        <img class="robux-header" alt="logo" src="img/robux.png">
+        <h1>Robux Booster</h1>
+    </header>
+
+    <div>
+        <hr>
+        <div class="game-container">
+            <canvas></canvas>
+            <div class="game-button left" 
+                onmousedown="player.keys.left = true"
+                onmouseup="player.keys.left = false"
+                onmouseleave="player.keys.left = false"
+                ontouchstart="player.keys.left = true"
+                ontouchend="player.keys.left = false">
+                <h3>&lsaquo;</h3>
+            </div>
+            <div class="game-button right"
+                onmousedown="player.keys.right = true"
+                onmouseup="player.keys.right = false"
+                onmouseleave="player.keys.right = false"
+                ontouchstart="player.keys.right = true"
+                ontouchend="player.keys.right = false">
+                <h3>&rsaquo;</h3>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+</html>
