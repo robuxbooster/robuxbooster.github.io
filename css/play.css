@@ -1,0 +1,21 @@
+.game-container {
+    display: block;
+    margin: auto;
+    position: relative;
+    width: fit-content;
+    border-radius: 50%;
+    user-select: none;
+}
+canvas {
+    background-color: black;
+}
+.game-button {
+    text-align: center;
+    background-color: #232527;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid white;
+}
+.left {left: 0; right: 50%;}
+.right {right: 0; left: 50%;}
